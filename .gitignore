@@ -1,0 +1,6 @@
+/target/
+/dist/
+.vs/
+.vscode/
+*.pdb
+*.log

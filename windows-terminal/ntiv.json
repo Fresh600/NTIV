@@ -1,0 +1,44 @@
+{
+  "profiles": [
+    {
+      "guid": "{281af39e-b329-59bb-802f-8dbf07ad5975}",
+      "name": "NTIV",
+      "commandline": "%LOCALAPPDATA%\\Programs\\NTIV\\ntiv.exe",
+      "startingDirectory": "%USERPROFILE%",
+      "colorScheme": "NTIV Sunset",
+      "font": {
+        "face": "Ubuntu Mono",
+        "size": 13,
+        "weight": "normal"
+      },
+      "padding": "0",
+      "scrollbarState": "hidden",
+      "useAcrylic": false
+    }
+  ],
+  "schemes": [
+    {
+      "name": "NTIV Sunset",
+      "background": "#18171C",
+      "foreground": "#F4EFE6",
+      "cursorColor": "#D2D700",
+      "selectionBackground": "#FFA770",
+      "black": "#18171C",
+      "red": "#FF6F3C",
+      "green": "#D2D700",
+      "yellow": "#FFA770",
+      "blue": "#6E8E74",
+      "purple": "#D89BE8",
+      "cyan": "#74D5B0",
+      "white": "#F4EFE6",
+      "brightBlack": "#8C8792",
+      "brightRed": "#FF8A63",
+      "brightGreen": "#E8EB4B",
+      "brightYellow": "#FFC19A",
+      "brightBlue": "#9DB7A2",
+      "brightPurple": "#E7B6F0",
+      "brightCyan": "#9DE6C8",
+      "brightWhite": "#FFFDF7"
+    }
+  ]
+}

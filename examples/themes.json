@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Ocean",
+    "background": "#101820",
+    "banner": "#4FD1C5",
+    "highlight": "#63B3ED",
+    "foreground": "#E6FFFA",
+    "hotkey": "#F6AD55",
+    "active": "#81E6D9",
+    "muted": "#718096"
+  }
+]

@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Fresh600.NTIV
+PackageVersion: 0.5.0
+InstallerType: zip
+NestedInstallerType: portable
+UpgradeBehavior: uninstallPrevious
+Commands:
+  - ntiv
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Fresh600/NTIV/releases/download/v0.5.0/NTIV-0.5.0-windows-x64.zip
+    InstallerSha256: 87D2252B999CC076486677B6412F1E62E844322870F9EE4FB1180FBD9C0BF638
+    NestedInstallerFiles:
+      - RelativeFilePath: ntiv.exe
+        PortableCommandAlias: ntiv
+ManifestType: installer
+ManifestVersion: 1.12.0

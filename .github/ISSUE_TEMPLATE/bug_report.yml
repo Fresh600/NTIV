@@ -1,0 +1,39 @@
+name: Bug report
+description: Report a reproducible problem in NTIV
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve NTIV.
+  - type: input
+    id: version
+    attributes:
+      label: NTIV version
+      placeholder: 0.5.0
+    validations:
+      required: true
+  - type: input
+    id: terminal
+    attributes:
+      label: Windows and terminal version
+      placeholder: Windows 11 24H2, Windows Terminal 1.x
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Describe the smallest set of steps that reproduces the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context

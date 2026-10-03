@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Open folder in VS Code",
+    "command": "code",
+    "args": ["."]
+  },
+  {
+    "name": "Open PowerShell here",
+    "command": "powershell.exe",
+    "args": ["-NoExit"]
+  }
+]
