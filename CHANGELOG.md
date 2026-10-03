@@ -12,7 +12,6 @@ All notable changes to NTIV are documented here. NTIV follows Semantic Versionin
 - Safe undo support for reversible file operations.
 - ZIP archives that open as read-only folders.
 - Git status, text comparison, application launcher, configurable plugins, and six themes.
-- Optional mouse learning mode with a contextual menu.
 - Hebrew and mixed right-to-left filename display support.
 - Windows Terminal profile, live clock, and polished status line.
 

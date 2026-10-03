@@ -5,7 +5,7 @@
 NTIV 0.5 is a keyboard-first file workspace for Windows Terminal. It combines a
 LazyVim-inspired dashboard with Vim navigation, tabs, split browsing, file and content
 search, background file jobs, Visual selection, previews, favorites, an application launcher,
-Git status, text comparison, themes, plugins, and an optional mouse learning mode.
+Git status, text comparison, themes, and plugins.
 
 The default Sunset theme uses a neutral charcoal background (`#18171C`), a
 lime-to-orange banner, warm text, and `#FFA770` for the active selection. NTIV paints
@@ -56,9 +56,9 @@ The current location is shown as a readable breadcrumb such as
 | `D` | Move the selection to the Windows Recycle Bin after confirmation |
 
 Copy, move, undo, and Recycle Bin jobs run in the background. Their progress appears
-in the status line and `Esc` requests a safe cancellation. Paste never overwrites an existing item: NTIV creates a safe name such as
-`report (copy 1).txt`. Deletion is available from the ADMIN right-click menu, always
-requires confirmation, and uses the Windows Recycle Bin. Recycle Bin deletion is not
+in the status line and `Esc` requests a safe cancellation. Paste never overwrites an
+existing item: NTIV creates a safe name such as `report (copy 1).txt`. Deletion always
+requires confirmation and uses the Windows Recycle Bin. Recycle Bin deletion is not
 part of the `u` undo history.
 
 ## Workspace tools
@@ -76,21 +76,13 @@ part of the `u` undo history.
 | `t` | Cycle the active theme |
 | Ctrl+Shift+T | Open the visual theme picker |
 | `z` | Open configured plugins |
-| `:` | Commands: `q`, `help`, `cd <path>`, `open`, `grep <text>`, `admin` |
+| `:` | Commands: `q`, `help`, `cd <path>`, `open`, `grep <text>` |
 
 Recent folders and Favorites can also be opened directly from the dashboard. State is
 saved for the current user in `%APPDATA%\NTIV\state.json`.
 
-## Mouse learning mode
-
-Press `:`, type `admin`, press Enter, and enter the NTIV password. The password is
-masked. Once unlocked, click to select, double-click to open, use the wheel to move,
-and right-click a file for Open, Edit, New File, New Folder, Rename, Copy, Cut, Paste,
-Copy Path, Reveal in Explorer, Open Terminal, and Recycle Bin.
-
-This is an NTIV learning mode, not Windows elevation: it does not grant Administrator
-privileges. Hebrew and mixed right-to-left names are reordered only for terminal
-display; their original names remain intact for search and filesystem operations.
+Hebrew and mixed right-to-left names are reordered only for terminal display; their
+original names remain intact for search and filesystem operations.
 
 ## Preview
 
@@ -171,6 +163,6 @@ To remove NTIV:
 
 - Junctions and symbolic links are not recursively copied.
 - Name conflicts are resolved without overwriting existing files.
-- File-changing keyboard commands are available in normal mode; ADMIN only enables
-  mouse interaction and the right-click learning menu.
+- File-changing commands require an explicit keyboard action and destructive actions
+  require confirmation.
 - Search stays below the current directory and skips inaccessible paths.

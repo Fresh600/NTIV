@@ -16,7 +16,7 @@ ShortDescription: A keyboard-first file manager for Windows Terminal.
 Description: >-
   NTIV is a fast, keyboard-first file workspace for Windows Terminal. It combines
   Vim-style navigation with previews, search, tabs, file operations, Git status,
-  themes, plugins, ZIP browsing, and an optional mouse learning mode.
+  themes, plugins, and ZIP browsing.
 Moniker: ntiv
 Tags:
   - cli
@@ -31,7 +31,7 @@ Tags:
 ReleaseNotes: >-
   NTIV 0.5 introduces the complete keyboard-first workspace, including Visual
   selection, background file jobs, undo, content search, ZIP browsing, Git status,
-  themes, plugins, application launching, and optional mouse controls.
+  themes, plugins, and application launching.
 ReleaseNotesUrl: https://github.com/Fresh600/NTIV/releases/tag/v0.5.0
 InstallationNotes: Run `ntiv` from a new Windows Terminal session.
 ManifestType: defaultLocale
